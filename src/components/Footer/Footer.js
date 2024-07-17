@@ -3,10 +3,10 @@ import React from "react";
 const Footer = () => {
   return (
     <footer
-      className="mt-3"
+      className="fixed-bottom"
       style={{
-        backgroundColor: "#ACD1FD",
-        color: "#1a5d1a",
+        backgroundColor: "#d4f5bb",
+        color: "#1A5D1A",
       }}
     >
       <div className="container py-3">
