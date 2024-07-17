@@ -4,7 +4,7 @@ export const alertAuthApi = createApi({
   reducerPath: "alertAuthApi",
 
   baseQuery: fetchBaseQuery({
-    baseUrl: `https://apis.relynrelax.com/api/alert`,
+    baseUrl: `https://dev-server-r1dc.onrender.com/api/alert`,
   }),
 
   endpoints: (builder) => ({
