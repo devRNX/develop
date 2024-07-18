@@ -67,6 +67,29 @@ form.signin-form {
   position: relative;
 }
 
+.input-wrapper {
+  position: relative;
+}
+
+.input-wrapper .fa-car {
+  position: absolute;
+  left: 15px; /* Adjust this value as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.input-wrapper .input-field2 {
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 55px;
+  padding-left: 45px; /* Adjust this value to fit the icon */
+  border: 1px solid #ccc; /* Add border if needed */
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
 .input-field i {
   text-align: center;
   line-height: 55px;

@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer
-      className="fixed-bottom"
+      className=""
       style={{
         backgroundColor: "#d4f5bb",
         color: "#1A5D1A",

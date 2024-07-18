@@ -20,23 +20,21 @@ function UserList() {
       <table className="table table-secondary table-striped">
         <thead>
           <tr>
-            <th className='text-center'>User Id</th>
+            <th className='text-center'>Vehicle Number</th>
             <th className='text-center'>User Name</th>
             <th className='text-center'>Phone Number</th>
             <th className='text-center'>Alt Phone Number</th>
             <th className='text-center'>Email</th>
-            <th className='text-center'>Zip Code</th>
           </tr>
         </thead>
         <tbody>
           {data.map((user) => (
             <tr key={user._id}>
-              <td className='text-center'>{user._id}</td>
+              <td className='text-center'>{user.v_number}</td>
               <td className='text-center'>{user.name}</td>
               <td className='text-center'>{user.phone_number}</td>
               <td className='text-center'>{user.alternate_number}</td>
               <td className='text-center'>{user.email}</td>
-              <td className='text-center'>{user.zip}</td>
             </tr>
           ))}
         </tbody>

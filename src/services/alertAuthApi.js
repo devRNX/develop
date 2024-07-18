@@ -4,7 +4,8 @@ export const alertAuthApi = createApi({
   reducerPath: "alertAuthApi",
 
   baseQuery: fetchBaseQuery({
-    baseUrl: `https://dev-server-r1dc.onrender.com/api/alert`,
+    // baseUrl: `https://dev-server-r1dc.onrender.com/api/alert`,
+    baseUrl: `http://localhost:5001/api/alert`,
   }),
 
   endpoints: (builder) => ({

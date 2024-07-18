@@ -4,7 +4,9 @@ export const userAuthApi = createApi({
   reducerPath: "userAuthApi",
 
   baseQuery: fetchBaseQuery({
-    baseUrl: `https://dev-server-r1dc.onrender.com/api/user`,
+    // baseUrl: `https://dev-server-r1dc.onrender.com/api/user`,
+    baseUrl: `http://localhost:5001/api/user`,
+
   }),
 
   endpoints: (builder) => ({
