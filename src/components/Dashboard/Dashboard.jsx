@@ -139,7 +139,7 @@ function Dashboard() {
                       placeholderText="Reminder Date"
                       selected={reminderDate}
                       onChange={(date) => setReminderDate(date)}
-                      dateFormat="MM/dd/yyyy"
+                      dateFormat="dd/MM/yyyy"
                       wrapperClassName="dateTimeInputWrapper"
                     />
                   </div>
